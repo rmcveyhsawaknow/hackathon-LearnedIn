@@ -29,7 +29,7 @@ REVIEWER_NAME = "Reviewer"
 WRITER_NAME = "Writer"
 
 # Add this line to specify the correct .env file path
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", ".azure", "2025041306", ".env"), override=True)
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", ".azure", "202504201710", ".env"), override=True)
 
 API_HOST = os.getenv("API_HOST", "azure")  # "azure" or "github"
 

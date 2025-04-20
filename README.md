@@ -76,10 +76,7 @@ azd auth login --use-device-code
 azd env list
 azd init --environment yyyymmddhhmm
 azd provision
-chmod +x ./infra/write_dot_env.sh
-
-<!-- sudo apt-get update && sudo apt-get install -y libwoff1 libopus0 libwebpdemux2 libharfbuzz-icu0 libwebpmux3 libenchant-2-2 libhyphen0 libegl1 libglx0 libgudev-1.0-0 libevdev2 libgles2 libx264-155
-
-pip3 install playwright
-playwright install -->
+<!-- chmod +x ./infra/write_dot_env.sh -->
+playwright install
+microsoft_learn_tool_playwright.py
 

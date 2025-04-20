@@ -54,7 +54,7 @@ param gptDeploymentName string = 'gpt-4o'
 @description('Capacity of the GPT deployment')
 // You can increase this, but capacity is limited per model/region, so you will get errors if you go over
 // https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits
-param gptDeploymentCapacity int = 20
+param gptDeploymentCapacity int = 30
 
 
 @description('Name of the text embedding model to deploy')
@@ -71,7 +71,7 @@ param embeddingDeploymentName string = 'text-embedding-3-large'
 @description('Capacity of the text embedding deployment')
 // You can increase this, but capacity is limited per model/region, so you will get errors if you go over
 // https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits
-param embeddingDeploymentCapacity int = 20
+param embeddingDeploymentCapacity int = 30
 
 @description('Id of the user or app to assign application roles')
 param principalId string = ''
