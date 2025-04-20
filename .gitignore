@@ -1,0 +1,8 @@
+# Ignore .azure directory
+.azure/
+
+# Ignore .env files
+.env
+
+# Ignore data files in data directory
+data/inputs/learn_profile_downloads/*.json

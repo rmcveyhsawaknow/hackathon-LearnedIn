@@ -1,0 +1,301 @@
+// Attempting to fetch profile for: 2f2714b7-eceb-4611-a918-bcbeebcf6519
+// Making GET request to: https://graph.microsoft.com/beta/users/2f2714b7-eceb-4611-a918-bcbeebcf6519/profile
+
+// Response Status Code: 200
+// Profile Data:
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/$entity",
+  "id": "profileId",
+  "account@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/account",
+  "account": [
+    {
+      "ageGroup": "",
+      "countryCode": "",
+      "userPrincipalName": "ryan@rjmcvey2013gmail.onmicrosoft.com",
+      "allowedAudiences": "organization",
+      "createdDateTime": "2021-11-22T23:22:13.6859707Z",
+      "lastModifiedDateTime": "2025-04-18T11:47:16.2174542Z",
+      "id": "eec1e0b3-bac0-4122-9f23-b6b5c007e782",
+      "isSearchable": false,
+      "inference": null,
+      "preferredLanguageTag": {
+        "locale": null,
+        "displayName": null
+      },
+      "createdBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "lastModifiedBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "MsGraph",
+          "id": null
+        }
+      },
+      "source": {
+        "type": [
+          "AAD",
+          "MsGraph"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "4ce763dd-9214-4eff-af7c-da491cc3782d",
+          "isDefaultSource": true
+        },
+        {
+          "sourceId": "0024a795-114d-4031-95c7-5fb543e00e80",
+          "properties": [
+            "isSipEnabled"
+          ]
+        }
+      ]
+    },
+    {
+      "ageGroup": "",
+      "countryCode": "",
+      "userPrincipalName": "",
+      "allowedAudiences": "federatedOrganizations",
+      "createdDateTime": "2021-11-22T23:22:13.6859707Z",
+      "lastModifiedDateTime": "2025-04-18T11:47:16.2174542Z",
+      "id": "884fbf34-2212-46e0-9d67-c535187a6068",
+      "isSearchable": false,
+      "inference": null,
+      "preferredLanguageTag": {
+        "locale": null,
+        "displayName": null
+      },
+      "createdBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "lastModifiedBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "MsGraph",
+          "id": null
+        }
+      },
+      "source": {
+        "type": [
+          "AAD",
+          "MsGraph"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "4ce763dd-9214-4eff-af7c-da491cc3782d",
+          "isDefaultSource": true
+        },
+        {
+          "sourceId": "0024a795-114d-4031-95c7-5fb543e00e80",
+          "properties": [
+            "isSipEnabled"
+          ]
+        }
+      ]
+    }
+  ],
+  "addresses@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/addresses",
+  "addresses": [],
+  "anniversaries@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/anniversaries",
+  "anniversaries": [],
+  "educationalActivities@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/educationalActivities",
+  "educationalActivities": [],
+  "names@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/names",
+  "names": [
+    {
+      "displayName": "ryan",
+      "first": "",
+      "initials": "",
+      "last": "",
+      "languageTag": null,
+      "maiden": null,
+      "middle": null,
+      "nickname": null,
+      "suffix": null,
+      "title": null,
+      "allowedAudiences": "organization,federatedOrganizations",
+      "createdDateTime": "2021-11-22T23:22:13.6859707Z",
+      "lastModifiedDateTime": "2021-11-22T23:22:13.6859707Z",
+      "id": "AadSource",
+      "isSearchable": false,
+      "pronunciation": null,
+      "inference": null,
+      "createdBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "lastModifiedBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "source": {
+        "type": [
+          "AAD"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "4ce763dd-9214-4eff-af7c-da491cc3782d"
+        }
+      ]
+    }
+  ],
+  "emails@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/emails",
+  "emails": [],
+  "notes@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/notes",
+  "notes": [],
+  "interests@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/interests",
+  "interests": [],
+  "languages@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/languages",
+  "languages": [],
+  "phones@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/phones",
+  "phones": [
+    {
+      "displayName": null,
+      "type": "mobile",
+      "number": "3174412052",
+      "allowedAudiences": "organization",
+      "createdDateTime": "2024-10-09T00:38:29.6263775Z",
+      "lastModifiedDateTime": "2024-10-09T00:38:29.6263775Z",
+      "id": "83473645-3b3e-48c3-9625-b9a1040d1d1e",
+      "isSearchable": false,
+      "inference": null,
+      "createdBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "lastModifiedBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "source": {
+        "type": [
+          "AAD"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "4ce763dd-9214-4eff-af7c-da491cc3782d"
+        }
+      ]
+    }
+  ],
+  "positions@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/positions",
+  "positions": [
+    {
+      "categories": [],
+      "isCurrent": true,
+      "allowedAudiences": "organization",
+      "createdDateTime": "2021-11-22T23:22:13.6859707Z",
+      "lastModifiedDateTime": "2021-11-22T23:22:13.6859707Z",
+      "id": "7e30f18f-cf53-4c17-a2fb-ce29ba204c7e",
+      "isSearchable": false,
+      "manager": null,
+      "inference": null,
+      "detail": {
+        "description": null,
+        "endMonthYear": "0001-01-01",
+        "jobTitle": "",
+        "role": null,
+        "startMonthYear": "0001-01-01",
+        "summary": null,
+        "level": "",
+        "layer": null,
+        "secondaryJobTitle": null,
+        "secondaryRole": null,
+        "company": {
+          "displayName": "",
+          "pronunciation": null,
+          "department": "",
+          "companyCode": null,
+          "officeLocation": "",
+          "webUrl": null,
+          "secondaryDepartment": null,
+          "address": {
+            "type": "business",
+            "postOfficeBox": null,
+            "street": "",
+            "city": "",
+            "state": "",
+            "countryOrRegion": "",
+            "postalCode": ""
+          }
+        }
+      },
+      "colleagues": [],
+      "createdBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "lastModifiedBy": {
+        "user": null,
+        "device": null,
+        "application": {
+          "displayName": "AAD",
+          "id": null
+        }
+      },
+      "source": {
+        "type": [
+          "AAD"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "4ce763dd-9214-4eff-af7c-da491cc3782d"
+        }
+      ]
+    }
+  ],
+  "projects@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/projects",
+  "projects": [],
+  "skills@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/skills",
+  "skills": [],
+  "webAccounts@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/webAccounts",
+  "webAccounts": [],
+  "websites@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/websites",
+  "websites": [],
+  "awards@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/awards",
+  "awards": [],
+  "publications@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/publications",
+  "publications": [],
+  "patents@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/patents",
+  "patents": [],
+  "certifications@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/certifications",
+  "certifications": [],
+  "extensions@odata.context": "https://graph.microsoft.com/beta/$metadata#users('2f2714b7-eceb-4611-a918-bcbeebcf6519')/profile/extensions",
+  "extensions": []
+}

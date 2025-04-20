@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+		"python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python",
+			"ms-python.vscode-python-envs",
+			"ms-toolsai.jupyter",
+			"ms-azuretools.vscode-docker"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Python Codespaces/Local DevContainer",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10",
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/devcontainers/features/github-copilot:1": {},
+		"ghcr.io/devcontainers/features/python-poetry:1": {}
+	},
+	"postCreateCommand": "pip install -r requirements.txt",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-python-envs",
+				"ms-toolsai.jupyter",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"remoteEnv": {
+		"PYTHONPATH": "/workspaces/hackathon-LearnedIn"
+	}
+}
