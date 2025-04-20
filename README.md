@@ -70,7 +70,16 @@ We welcome contributions from the community! Feel free to submit issues or pull 
 *Developed for the Microsoft AI Agents Hackathon 2025.*
 
 
-az auth login --use-device-code
+az login --use-device-code
+az account show
 azd auth login --use-device-code
 azd env list
 azd init --environment yyyymmddhhmm
+azd provision
+chmod +x ./infra/write_dot_env.sh
+
+<!-- sudo apt-get update && sudo apt-get install -y libwoff1 libopus0 libwebpdemux2 libharfbuzz-icu0 libwebpmux3 libenchant-2-2 libhyphen0 libegl1 libglx0 libgudev-1.0-0 libevdev2 libgles2 libx264-155
+
+pip3 install playwright
+playwright install -->
+
